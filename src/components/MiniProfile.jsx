@@ -27,7 +27,7 @@ export default function MiniProfile() {
           onClick={signIn}
           className="text-blue-500 text-sm font-semibold"
         >
-          Sign In
+          Sign In ssdsdas
         </button>
       )}
     </div>
