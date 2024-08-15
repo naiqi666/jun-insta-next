@@ -1,5 +1,8 @@
 "use client";
 
+import "firebase/compat/auth";
+import "firebase/compat/firestore";
+
 import Image from "next/image";
 import Link from "next/link";
 import { signIn, useSession, signOut } from "next-auth/react";
