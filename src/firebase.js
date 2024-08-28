@@ -8,30 +8,32 @@ import "firebase/compat/firestore";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+// const firebaseConfig = {
+//   apiKey: process.env.NODE_PUBLIC_FIREBASE_API_KEY,
+//   authDomain: "insta-next-59d2e.firebaseapp.com",
+//   projectId: "insta-next-59d2e",
+//   storageBucket: "insta-next-59d2e.appspot.com",
+//   messagingSenderId: "717041772818",
+//   appId: "1:717041772818:web:ecf6933f217506fb716bcb",
+// };
+
+// // Initialize Firebase
+// const app = initializeApp(firebaseConfig);
+
+// Import the functions you need from the SDKs you need
+// import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: process.env.NODE_PUBLIC_FIREBASE_API_KEY,
-  authDomain: "insta-next-59d2e.firebaseapp.com",
-  projectId: "insta-next-59d2e",
-  storageBucket: "insta-next-59d2e.appspot.com",
-  messagingSenderId: "717041772818",
-  appId: "1:717041772818:web:ecf6933f217506fb716bcb",
+  authDomain: "insta-next-89610.firebaseapp.com",
+  projectId: "insta-next-89610",
+  storageBucket: "insta-next-89610.appspot.com",
+  messagingSenderId: "458827317846",
+  appId: "1:458827317846:web:c228bec3830bd00b4771f7",
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-
-// rules_version = "2";
-
-// Craft rules based on data in your Firestore database
-// allow write: if firestore.get(
-// //    /databases/(default)/documents/users/$(request.auth.uid)).data.isAdmin;
-// service firebase.storage {
-//   match /b/{bucket}/o {
-//     match /{allPaths=**} {
-//       allow read;
-//       allow write: if
-//       request.resource.size < 2 *1024 *1024 &&
-//       request.resource.contentType.matches('image/.*');
-//     }
-//   }
-// }
+export const app = initializeApp(firebaseConfig);
